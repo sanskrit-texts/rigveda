@@ -1,6 +1,6 @@
 # Morpho-lexical annotations
 
-The file 'rigveda.csv' contains the morpho-lexical annotations that were generated with the SanskritTagger tool and manually validated.
+The file 'rigveda.csv' contains the morpho-lexical annotations that were generated with the SanskritTagger tool and manually validated by O. Hellwig.
 
 The file is a plain text file in UTF-8 encoding using # for separating fields.
 
@@ -19,4 +19,10 @@ The first line of the file contains the headline. Explanation of the individual 
 * **lemma_id**: unique lemma id
 * **id_tea**: unique id of the lemma at this position (internal use only)
 * **sentence_boundary**
-coarse_pos#case#number#gender#person#tense_mode#synsets
+* **coarse_pos**: Approximate POS tag (may be incorrect for pronominal classes, doesn't distinguish between common nouns and named entities)
+* **case** of a noun or adjective
+* **number** of a noun, adjective or verb
+* **gender** of a noun or adjective
+* **person** of a finite verbal form
+* **tense_mode** of a finite verbal form
+* **synsets**: (internal use only)

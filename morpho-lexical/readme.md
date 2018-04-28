@@ -14,4 +14,9 @@ The first line of the file contains the headline. Explanation of the individual 
 * **substring_position**: If a word consists of multiple lemmata, this value gives the position of the lemma.
 * **surface_form**: ''padapatha'' form of an inflected lemma
 * **lemma**: dictionary form of the lemma
-* verbal_root#verbal_prefixes#lemma_id#id_tea#sentence_boundary#coarse_pos#case#number#gender#person#tense_mode#synsets
+* **verbal_root**: If the lemma is a verb, this is the root without prefixes. Ex.: lemma=abhigam, root=gam
+* **verbal_prefixes**: If the lemma is a prefixed verb, these are the concatenated prefixes. Ex.: lemma=abhyupagam, prefixes=abhyupa
+* **lemma_id**: unique lemma id
+* **id_tea**: unique id of the lemma at this position (internal use only)
+* **sentence_boundary**
+coarse_pos#case#number#gender#person#tense_mode#synsets

@@ -4,7 +4,8 @@ This repository contains a verb-argument annotation of the complete Rigveda as w
 Data were created in three steps:
 * H. Hettrich (Würzburg University) created the verb-argument annotation.
 * O. Hellwig (Düsseldorf University) created the morpho-lexical annotation. - Verb-argument and morpho-lexical annotation were performed independent of each other.
-* Data sources were merged in a project located at the Department of Computational Linguistics (Saarbrücken) under the guidance of M. Pinkal.
+* Data sources were merged in a project located at the Department of Computational Linguistics (Saarbrücken) under the guidance of M. Pinkal and funded by the Cluster
+of Excellence “Multimodal Computing and Interaction” of German Science Foundation (DFG).
 
 More details about the annotation process and the structure of the data can be found in the following publication:
 ```
@@ -22,4 +23,4 @@ As a bibtex entry:
 }
 ```
 
-Data are published under the Creative Commons Attribution 4.0 International Public License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+Data are published under the Creative Commons Attribution 4.0 International Public License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)), and the LREC publication must be cited when data are used in other contexts.

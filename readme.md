@@ -8,7 +8,9 @@ Data were created in three steps:
 
 More details about the annotation process and the structure of the data can be found in the following publication:
 ```
-Oliver Hellwig, Heinrich Hettrich, Ashutosh Modi, Manfred Pinkal: Multi-layer Annotation of the Rigveda. In: Proceedings of the LREC, 2018.
+Oliver Hellwig, Heinrich Hettrich, Ashutosh Modi, Manfred Pinkal: 
+	Multi-layer Annotation of the Rigveda. 
+	In: Proceedings of the LREC, 2018.
 ```
 As a bibtex entry:
 ```

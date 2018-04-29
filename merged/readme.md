@@ -1,18 +1,18 @@
 # Merged annotations
 
-This directory contains a single csv file in which the verb-argument (H. Hettrich) and the morpho-lexical annotations (O. Hellwig) are presented in a merged format.
+This directory contains csv files for each book of the Rigveda in which the verb-argument (H. Hettrich) and the morpho-lexical annotations (O. Hellwig) are presented in a merged format.
 
 The layout of the file resembles that in the folder *morpho-lexical*, but $ is used as separation character.
 
 ## Fields with different names (morpho-lexical level):
-* **lex_id** = morpho-lexical$lemma_id
-* **boundary** = morpho-lexical$sentence_boundary
-* **udpos** = morpho-lexical$coarse_pos
+* **lex_id** = morpho-lexical.lemma_id
+* **boundary** = morpho-lexical.sentence_boundary
+* **udpos** = morpho-lexical.coarse_pos
 * **cas**(e)
 * **num**(ber)
 * **gen**(der)
 * **per**(son)
-* **tem** = morpho-lexical$tense_mode
+* **tem** = morpho-lexical.tense_mode
 
 ## Fields describing the verb-argument level
 * **instance_id**: unique identifier of the verb-argument structure. All instances (lines) that share a number belong to the same verb-argument construction.

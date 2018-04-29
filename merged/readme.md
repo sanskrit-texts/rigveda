@@ -4,7 +4,7 @@ This directory contains a single csv file in which the verb-argument (H. Hettric
 
 The layout of the file resembles that in the folder *morpho-lexical*, but $ is used as separation character.
 
-##Fields with different names (morpho-lexical level):
+## Fields with different names (morpho-lexical level):
 * **lex_id** = morpho-lexical$lemma_id
 * **boundary** = morpho-lexical$sentence_boundary
 * **udpos** = morpho-lexical$coarse_pos
@@ -23,5 +23,5 @@ The layout of the file resembles that in the folder *morpho-lexical*, but $ is u
  * def: By direct match between Hettrich and Hellwig data
  * heu: Using a heuristic (refer to the paper)
  * oh: Later annotation by O. Hellwig (use with care!)
-* **annotation_problems**: If no direct match between Hettrich and Hellwig was possible, this field indicates possible sources of problems
+* **annotation_problems**: If no direct match or heuristic match could be performed and there are not post-annotations by OH, this field indicates possible sources of problems.
 * **num_anno_problems**: Number of such problems (integer)

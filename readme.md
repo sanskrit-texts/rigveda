@@ -12,7 +12,7 @@ Oliver Hellwig, Heinrich Hettrich, Ashutosh Modi, Manfred Pinkal:
 	Multi-layer Annotation of the Rigveda. 
 	In: Proceedings of the LREC, 2018.
 ```
-As a bibtex entry:
+Please cite our publication with the following bibtex entry, when you use the data:
 ```
 @inproceedings{rigveda-annotation,
 	title = {Multi-layer Annotation of the {\d Rgveda}},
@@ -22,4 +22,4 @@ As a bibtex entry:
 }
 ```
 
-Data are published under the Creative Commons Attribution 4.0 International Public License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)), and the LREC publication must be cited when data are used in other contexts.
+Data are published under the Creative Commons Attribution 4.0 International Public License ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
